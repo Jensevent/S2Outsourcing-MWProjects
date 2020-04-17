@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhees\\Desktop\\HBO-ICT\\Semester 2\\Findle\\Outsourcing\\OutsourcingMWProject\\OutsourcingMWProject.csproj": {}
+    "D:\\Git\\Outsourcing-MWProjects\\OutsourcingMWProject\\OutsourcingMWProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhees\\Desktop\\HBO-ICT\\Semester 2\\Findle\\Outsourcing\\OutsourcingMWProject\\OutsourcingMWProject.csproj": {
+    "D:\\Git\\Outsourcing-MWProjects\\OutsourcingMWProject\\OutsourcingMWProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhees\\Desktop\\HBO-ICT\\Semester 2\\Findle\\Outsourcing\\OutsourcingMWProject\\OutsourcingMWProject.csproj",
+        "projectUniqueName": "D:\\Git\\Outsourcing-MWProjects\\OutsourcingMWProject\\OutsourcingMWProject.csproj",
         "projectName": "OutsourcingMWProject",
-        "projectPath": "C:\\Users\\jhees\\Desktop\\HBO-ICT\\Semester 2\\Findle\\Outsourcing\\OutsourcingMWProject\\OutsourcingMWProject.csproj",
+        "projectPath": "D:\\Git\\Outsourcing-MWProjects\\OutsourcingMWProject\\OutsourcingMWProject.csproj",
         "packagesPath": "C:\\Users\\jhees\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhees\\Desktop\\HBO-ICT\\Semester 2\\Findle\\Outsourcing\\OutsourcingMWProject\\obj\\",
+        "outputPath": "D:\\Git\\Outsourcing-MWProjects\\OutsourcingMWProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

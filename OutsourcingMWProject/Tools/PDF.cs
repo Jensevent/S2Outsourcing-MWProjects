@@ -110,17 +110,14 @@ namespace OutsourcingMWProject.Tools
 
             section.AddParagraph(dbh.table.Rows[0].ItemArray[0].ToString());
             section.AddParagraph(dbh.table.Rows[1].ItemArray[0].ToString());
-            section.AddParagraph();
-            section.AddParagraph("----------------------------------------------------------------------------");
-            section.AddParagraph();
+            section.AddParagraph("");
+            section.AddParagraph("-----------------------------------------------------------------------------------------------------");
+            section.AddParagraph("");
         }
 
 
         private void FillPDF()
         {
-
-            CreateHeader();
-
             Databasehandler dbh = new Databasehandler();
 
             SqlCommand GetData = new SqlCommand
@@ -160,6 +157,8 @@ namespace OutsourcingMWProject.Tools
             dbh.CloseConnectionToDB();
 
             section = document.AddSection();
+
+            CreateHeader();
 
             int count = 0;
             foreach (DataRow DataRow in Jobs.Rows)
