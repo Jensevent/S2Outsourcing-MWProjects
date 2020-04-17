@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "PDFGenerator";
+}
+
+<h1>PDFGenerator</h1>
+<form method="post" asp-controller="Home" asp-action="CreatePDF">
+    <input type="text" value="Vul hier je PDF naam in!" id="PDFName" name="PDFName"/>
+    <input type="submit" value="Genereer PDF"/>
+</form>
+

@@ -1,0 +1,50 @@
+// Zet dit in de methode FillPDF()
+     Jobs = CreateTestJobs();
+     dbh.FillTable(CreateTestData());
+
+
+// Test datatables
+private DataTable CreateTestJobs()
+        {
+            DataTable table = new DataTable();
+
+            table.Columns.Add("Dienst", typeof(string));
+
+            table.Rows.Add("Schoonmaak");
+            table.Rows.Add("Bar");
+            table.Rows.Add("EHBO");
+
+            return table;
+        }
+
+
+private DataTable CreateTestData()
+        {
+            DataTable table = new DataTable();
+
+            table.Columns.Add("Dienst", typeof(string));
+            table.Columns.Add("Naam", typeof(string));
+            table.Columns.Add("Begintijd", typeof(string));
+            table.Columns.Add("Eindtijd", typeof(string));
+            table.Columns.Add("Bondnmr", typeof(int));
+            table.Columns.Add("Telefoonnummer", typeof(int));
+
+            table.Rows.Add("Schoonmaak", "Pietje Bel", "23-02-2020 11:00", "23-02-2020 17:00", 123454321, 1454321);
+            table.Rows.Add("Schoonmaak", "Meridith Grey", "12-04-2020 7:00", "12-04-2020 13:00", 3157908, 7891488);
+            table.Rows.Add("Schoonmaak", "Tarzan Clayton", "23-02-2020 8:00", "23-02-2020 14:00", 152309, 315809133);
+            table.Rows.Add("Schoonmaak", "Fred Flintstone", "23-02-2020 11:00", "23-02-2020 17:00", 78913141, 547893131);
+            table.Rows.Add("Schoonmaak", "Dora Marquez", "23-02-2020 15:00", "23-02-2020 22:00", 4645686, 75487645);
+            table.Rows.Add("Schoonmaak", "Laurel Lance", "23-02-2020 7:00", "23-02-2020 13:00", 75744245, 1375945824);
+
+            table.Rows.Add("Bar", "Peter Pan", "23-02-2020 15:00", "23-02-2020 22:00", 7236878, 956235);
+            table.Rows.Add("Bar", "Wendy Schat", "23-02-2020 11:00", "23-02-2020 17:00", 85258785, 85236589);
+            table.Rows.Add("Bar", "Oliver Queen", "23-02-2020 7:00", "23-02-2020 13:00", 258745854, 875258548);
+            table.Rows.Add("Bar", "Howard Philips Lovecraft", "23-02-2020 7:00", "23-02-2020 13:00", 526598584, 85256845);
+
+            table.Rows.Add("EHBO", "Roy Harper", "23-02-2020 15:00", "23-02-2020 22:00", 412658796, 69874585);
+            table.Rows.Add("EHBO", "Walter White", "23-02-2020 7:00", "23-02-2020 13:00", 145899635, 4583548);
+            table.Rows.Add("EHBO", "Jeff Winger", "23-02-2020 7:00", "23-02-2020 13:00", 258745854, 8758548);
+            table.Rows.Add("EHBO", "Pierce Webber", "23-02-2020 7:00", "23-02-2020 13:00", 865378524, 8973214);
+
+            return table;
+        }
